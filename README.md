@@ -1,2 +1,1 @@
-# Bigram-Character-Model
-Autoregressive Bigram Model implemented in Pytorch
+Will update it . Going from start to end till GPT2 :) 
