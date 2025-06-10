@@ -21,3 +21,5 @@
   - Analyzed internal dynamics and stability improvements during training.
 
 ### 4. Manual BackPropogation Through Previous MLP
+
+- [`Back Prop`](backprop.ipynb)
