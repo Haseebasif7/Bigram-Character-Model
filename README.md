@@ -19,3 +19,5 @@
   - Explored effects on **forward-pass activations** and **backward-pass gradients**.
   - Highlighted **pitfalls** when normalization statistics are improperly scaled or applied.
   - Analyzed internal dynamics and stability improvements during training.
+
+### 4. Manual BackPropogation Through Previous MLP
