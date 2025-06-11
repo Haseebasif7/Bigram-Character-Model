@@ -6,7 +6,7 @@
 - 📓 Notebook: [`bigram`](bigram_model.ipynb)
 - 🧠 A simple character-level bigram language model implemented from scratch both neural network and lookup table based.
 
-### 2. MLP-based Character Model
+### 2. N-gram Autoregressive Model (Character-level)
 - 📓 Paper followed: [`Bengio et al. 2003`](extras/mlp_paper.pdf)
 - 🔧 Multi-layer perceptron-based character-level neural net with character-wise embedding vectors.
 
@@ -20,6 +20,14 @@
   - Highlighted **pitfalls** when normalization statistics are improperly scaled or applied.
   - Analyzed internal dynamics and stability improvements during training.
 
-### 4. Manual BackPropogation Through Previous MLP
+### 4. Manual Backpropagation Through Previous MLP
 
-- [`Back Prop`](backprop.ipynb)
+- 📓 Notebook: [`Back Prop`](backprop.ipynb)  
+  A manual implementation of backpropagation through a simple MLP, useful for understanding gradient flow and low-level training mechanics.
+
+### 5. WaveNet-like Architecture
+
+- 📓 Paper Referenced: [`WaveNet (DeepMind, 2016)`](TinyToGPT/extras/wavenet.pdf)
+
+Built upon the previous MLP by deepening it into a **tree-like structure** inspired by the **WaveNet** architecture. While the original WaveNet achieves hierarchical feature extraction efficiently through **causal dilated convolutions**, which not implemented in this 
+
