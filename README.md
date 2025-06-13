@@ -32,7 +32,6 @@
 Built upon the previous MLP by deepening it into a **tree-like structure** inspired by the **WaveNet** architecture. While the original WaveNet achieves hierarchical feature extraction efficiently through **causal dilated convolutions**, which not implemented in this 
 
 ### 5. GPT 
-
-- Repository : (GPT)[https://github.com/Haseebasif7/GPT]
+- Repository : [`GPT`](https://github.com/Haseebasif7/GPT)
 
  GPT-style **decoder-only Transformer**
