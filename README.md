@@ -35,3 +35,15 @@ Built upon the previous MLP by deepening it into a **tree-like structure** inspi
 - Repository : [`GPT`](https://github.com/Haseebasif7/GPT)
 
  GPT-style **decoder-only Transformer**
+
+### 🔹 7. Byte Pair Encoding (BPE) Tokenizer
+
+A custom Byte Pair Encoding tokenizer implemented **from scratch**, including:
+
+- UTF-8 byte-level processing
+- GPT-style **regex-based token splitting**
+- Dynamic vocabulary building via merge rules
+
+📂 **Files:**
+- 🧠 Tokenizer Class: [`BPE.py`](TinyToGPT/BPE.py)  
+- 🧪 Debug Notebook: [`tokenizer.ipynb`](TinyToGPT/tokenizer.ipynb)
